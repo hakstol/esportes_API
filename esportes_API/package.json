@@ -1,0 +1,18 @@
+{
+  "name": "esportes_api",
+  "version": "1.0.0",
+  "description": "Desenvolvimento de API que lista as modalidades de esporte utilizando o fluxo OAuth ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "author": "hakstol",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.0.1"
+  }
+}
